@@ -20,6 +20,12 @@ class PostCreator extends Component {
             info: this.state.info,
         });
         this.setState({
+            info: "What's happening?",
+        });
+    }
+
+    clearValue = () => {
+        this.setState({
             info: "",
         });
     }
@@ -27,8 +33,8 @@ class PostCreator extends Component {
     render() {
         return (
         <form className="createpost nes-container is-rounded" onSubmit={this.handleFormSubmit}>
-            <textarea
-                ref="info"
+            <textarea 
+                required onClick={this.clearValue}
                 className="new-post nes-textarea"
                 value={this.state.info}
                 onChange={this.handleInfoChange}></textarea>
