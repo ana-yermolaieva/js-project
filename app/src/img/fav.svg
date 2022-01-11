@@ -1,0 +1,19 @@
+<svg width="480" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_3_blur">
+   <feGaussianBlur stdDeviation="0.2" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="482" width="482" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000000" transform="rotate(148.22543334960938 223.036376953125,255.9340667724609) " id="svg_2" d="m342.270197,96.913186l-42.399882,-26.536043c-10.697625,-6.688559 -24.793603,-3.469357 -31.534214,7.184932l-16.712191,26.48653l81.112769,50.728167l16.725371,-26.474235c6.715029,-10.666971 3.510193,-24.715695 -7.191853,-31.389351l0,0zm-234.986739,235.96699l81.117189,50.727646l132.207571,-209.567528l-81.155804,-50.740891l-132.168969,209.58076l0.000013,0.000013zm-12.390634,64.451364l-1.791588,47.647607l42.334838,-22.296909l39.341093,-20.683528l-78.25635,-48.969535l-1.62798,44.302378l0,0l-0.000013,-0.000013z" stroke-width="2.5" fill="#209cee"/>
+  <text filter="url(#svg_3_blur)" stroke="#000000" transform="rotate(180 232.2364807128906,252.23774719238284) matrix(4.284492222236985,0,0,4.587204477259938,-178.75548309530322,-407.065801590628) " font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="151.932508" x="87.250987" stroke-width="0" fill="#000000">N</text>
+  <path transform="rotate(-89.4052734375 232.73451232910156,170.11553955078125) " id="svg_4" d="m212.234503,189.197973l19.130075,-19.087087l-19.130075,-19.087224l10.933806,-10.908119l30.066201,29.995343l-30.066201,30.004649" fill-opacity="null" stroke-opacity="null" stroke-width="2.5" stroke="#000000" fill="#209cee"/>
+  <path transform="rotate(89.99180603027344 231.7345123291015,336.11553955078125) " id="svg_6" d="m211.234503,355.197973l19.130074,-19.087087l-19.130074,-19.087223l10.933806,-10.90812l30.0662,29.995343l-30.0662,30.004649" fill-opacity="null" stroke-opacity="null" stroke-width="2.5" stroke="#000000" fill="#209cee"/>
+ </g>
+</svg>
