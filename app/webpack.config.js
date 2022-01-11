@@ -2,7 +2,6 @@ const path = require('path');
 
 module.exports = {
     watch: true,
-    mode: 'production',
     entry: './src/script.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -22,6 +21,10 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"],
+            },
+            {
+                test: /\.(gif|svg|jpg|png)$/i,
+                type: 'asset/resource',
             }
         ]
     }
