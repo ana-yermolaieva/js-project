@@ -19,12 +19,10 @@ class HomePage extends Component {
     }
 
     checkPostCreatorInfo = ({ info }) => {
-        console.log(`cheking info: ${info}`);
         const { users } = this.state;
         this.setState({
-            users: [...users, { email: 'elonmusk@google.com', name: 'Elon Musk', content: info }]
+            users: [{ email: 'elonmusk@google.com', name: 'Elon Musk', content: info }, ...users]
         });
-        console.log(this.state.users);
     }
 
     render() {
