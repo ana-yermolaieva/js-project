@@ -14,8 +14,8 @@ class HomePage extends Component {
         this.navItems = [
             { id: 1, link: 'index.html', title: 'Home' },
             { id: 2, link: 'index.html', title: 'Profile' },
-            { id: 3, link: 'index.html', title: 'Log out' }
         ];
+
     }
 
     checkPostCreatorInfo = ({ info }) => {
@@ -26,11 +26,11 @@ class HomePage extends Component {
     }
 
     render() {
-        return <>
-        <Navigation navItems={this.navItems}/>
-        <PostCreator onFormSubmit={this.checkPostCreatorInfo} />
-        <Feed users={this.state.users}/>
-        </>
+        return <div className="main_block">
+            <Navigation navItems={this.navItems} check={this.props.checkLogout}/>
+            <PostCreator onFormSubmit={this.checkPostCreatorInfo} />
+            <Feed users={this.state.users}/>
+        </div>
     }
 };
 

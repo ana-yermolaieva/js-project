@@ -2,7 +2,7 @@ import React from "react";
 import { NavigationItems } from "./NavigationItems.jsx";
 
 function Navigation(props) {
-    return <nav className="navigation nes-container is-rounded">
+    return (<nav className="navigation nes-container is-rounded">
         <a href="index.html" className="logo">
             <img className="logo-img" src="../src/img/logo.svg" alt="logo"/>
         </a>
@@ -11,7 +11,8 @@ function Navigation(props) {
                 return <NavigationItems item={item} key={item.id} />
             })}
         </ul>
-    </nav>
+        <button type="button" className="nes-btn is-primary" onClick={props.check}>Log out</button>
+    </nav>)
 } 
 
-export { Navigation }; 
+export { Navigation };

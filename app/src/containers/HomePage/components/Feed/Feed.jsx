@@ -1,5 +1,5 @@
 import React from "react";
-import { PostTemplate } from "./Post-template/Post-template.jsx";
+import { PostTemplate } from "./PostTemplate/PostTemplate.jsx";
 
 let i = 0;
 
