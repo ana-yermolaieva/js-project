@@ -13,7 +13,7 @@ class Login extends Component {
     }
 
     checkAuthUserInfo = ({ email, password }) => {
-        fetch("https://143.198.136.212/api/auth/signin", {
+        fetch("http://143.198.136.212/api/auth/signin", {
             method: "POST",
             body: JSON.stringify({
                 email,
@@ -33,7 +33,7 @@ class Login extends Component {
     }
 
     checkRegisterUserInfo = ({ email, password, firstName, lastName, nickname }) => {
-        fetch("https://143.198.136.212/api/auth/signup", {
+        fetch("http://143.198.136.212/api/auth/signup", {
             method: "POST",
             body: JSON.stringify({
                 email,
