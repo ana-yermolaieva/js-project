@@ -1,0 +1,17 @@
+<svg width="370" height="85" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_3_blur">
+   <feGaussianBlur stdDeviation="0.2" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="87" width="372" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000000" transform="rotate(-122.1839370727539 171.53637695312497,34.93408203125001) " stroke-dasharray="5,5" id="svg_2" d="m274.155217,-101.685989l-36.49155,-22.797989c-9.206934,-5.746361 -21.338669,-2.980638 -27.13999,6.172812l-14.383383,22.75545l69.80988,43.582239l14.394727,-22.744887c5.779304,-9.164346 3.021055,-21.234068 -6.189684,-26.967625l0,0zm-202.241845,202.727011l69.813684,43.581791l113.784732,-180.046364l-69.846918,-43.59317l-113.751509,180.057732l0.000012,0.000011zm-10.664027,55.372288l-1.541934,40.935628l36.435571,-19.156009l33.858997,-17.7699l-67.351497,-42.07134l-1.401124,38.061632l0,0l-0.000012,-0.000011z" stroke-width="2.5" fill="#209cee"/>
+  <text filter="url(#svg_3_blur)" stroke="#000000" transform="matrix(2.3877270221710205,0,0,2.2220215797424316,-119.34452390670776,-24.65471797171631) " font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="38.802841" x="87.256425" stroke-width="0" fill="#000000">Notter</text>
+ </g>
+</svg>
